@@ -17,8 +17,8 @@ https:
   cert: certificate.pem
 
 xmpp:
-  enable: false
-  roomCreation: false
+  enable: true
+  roomCreation: true
   debug:
     handled: false
     unhandled: false
@@ -37,7 +37,7 @@ secrets:
   cookie: secretsauce
 
 files:
-  enable: false
+  enable: true
   provider: local
   maxFileSize: 100000000
   restrictTypes: true
